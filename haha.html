@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Proposal</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .heart {
+      font-size: 200px;
+      color: red;
+      margin: 20px 0;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: white;
+      text-shadow: 2px 2px 5px red;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .yes-btn {
+      background-color: red;
+      color: white;
+    }
+
+    .yes-btn:hover {
+      background-color: darkred;
+    }
+
+    .no-btn {
+      background-color: grey;
+      color: white;
+      position: relative;
+    }
+
+    .no-btn:hover {
+      transform: translateX(200px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heart">❤️</div>
+    <h1>Will you be my Valentine?</h1>
+    <div class="buttons">
+        <a href="haha2.html">
+      <button class="yes-btn">Yes</button>
+    </a>
+      <button class="no-btn" onclick="alert('Try Again!!')">No</button>
+    </div>
+  </div>
+</body>
+</html>

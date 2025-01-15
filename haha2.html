@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Note</title>
+  <style>
+    body {
+      background-color: #ffe6f2; /* Light pink background */
+      font-family: "Cursive", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 80%;
+      max-width: 600px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 30px;
+      position: relative;
+    }
+
+    .heart {
+      width: 100px;
+      height: 90px;
+      background: #ff4d6d;
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      clip-path: polygon(
+        50% 0%,
+        100% 35%,
+        85% 100%,
+        50% 85%,
+        15% 100%,
+        0% 35%
+      );
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff4d6d;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .signature {
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #555;
+      font-style: italic;
+    }
+
+    .decor {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .decor span {
+      width: 15px;
+      height: 15px;
+      background: #ff4d6d;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart"></div>
+    <h1>My Love for You</h1>
+    <p>
+      No matter what, I'm always gonna be there for you.<br>
+      I love you always and forever.<br>
+      Even amidst the darkness of this reality,<br>
+      You're both my Suki and Tsuki.
+    </p>
+    <div class="signature">From Lynx</div>
+    <div class="decor">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>
