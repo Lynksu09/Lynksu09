@@ -1,0 +1,195 @@
+#nav1 {
+    list-style: none;
+    margin: 2px;
+    padding: 8px;
+    width: fit-content;
+    height: 65px;
+    background-color:rgb(19, 16, 16);
+    display: flex;
+    justify-content:space-evenly;
+    text-decoration: none;
+    margin-top: auto;
+    position: sticky;
+    
+  }
+li a{
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+   
+    }
+li a:hover{
+    background-color: black;
+    color:beige;
+}
+#logo{
+    float: left;
+}
+#navbar{
+    display: flex;
+  float:inline-start;
+  margin-left: 740px;
+}
+#navigation{
+    border: white solid 2px;
+    background-color: rgb(19, 16, 16);
+    overflow:visible;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9;
+}
+li a:hover:not(.active){
+    background-color: rgb(112, 112, 112);
+}
+.active{
+    background-color: rgb(46, 46, 46);
+}
+body{
+    border: solid white 2px;
+    background-color: black;
+    
+}
+#border{
+    width:auto;
+    height: 750px;
+    border: solid white 2px;
+    background-image: url(car1.jpg);
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-right: 6000px;
+    margin-top: 0px;
+    margin-bottom: 5000px;
+    border-radius: 25px;
+  }
+  .zoom img{
+    border-radius: 25px;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.02);
+    border-radius: 25px;
+  }
+  .overlay {
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 50px;
+    margin-bottom: 500px;
+    height: 495px;
+    width: 550px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    margin-top: 50px;
+    border-radius: 25px;
+  }
+  
+  .zoom:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .borrder{
+    width:500px;
+    height: 380px;
+    border: solid gray 4px;
+    position: absolute;
+    left: 750px;
+    top:150px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 25px;
+  }
+  .borrder img{
+    opacity: 1;
+    position: relative;
+    left:30px;
+    border-radius: 25px;
+  }
+  input{
+width: 250px;
+height: 35px;
+margin-left: 90px;
+background-color: white;
+opacity: 100;
+margin-top: 15px;
+border-radius: 10px;
+  }
+  .form{
+    background-color: white;
+    opacity: 1;
+  }
+  ::placeholder{
+    color: black;
+    opacity: 1;
+  }
+  button{
+    width: 250px;
+height: 35px;
+margin-left: 90px;
+background-color: white;
+margin-top: 15px;
+justify-content: space-around;
+border-radius: 25px;
+  }
+button:hover{
+    background-color: black;
+    color:beige;
+}
+.borrrder{
+    width:500px;
+    height: 80px;
+    border: solid gray 4px;
+    position: absolute;
+    left: 750px;
+    top:540px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 25px;
+}
+.fp a{
+    margin-left: 160px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 20px;
+}
+.signup a{
+    margin-left: 200px;
+    text-decoration: none;
+    color:blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     position: absolute;
+    bottom: 20px;
+}
+#dhaa{
+    position: absolute;
+    font-size: large;
+    left:150px;
+    top:15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
